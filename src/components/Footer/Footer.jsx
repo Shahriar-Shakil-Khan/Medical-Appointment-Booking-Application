@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div>
          
-        <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10">
+        <footer className="footer footer-horizontal footer-center bg-sky-500/50 text-base-content rounded p-10">
 
             <div className='flex'>
                    <img className='h-[35px]' src={logo_image} alt="" />
@@ -54,7 +54,7 @@ const Footer = () => {
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
-                        fill="blue"> 
+                        fill="orange"> 
                         <path
                             d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
                     </svg>
