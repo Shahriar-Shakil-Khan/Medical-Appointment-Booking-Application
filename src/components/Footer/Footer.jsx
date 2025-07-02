@@ -10,7 +10,7 @@ const Footer = () => {
 
             <div className='flex'>
                    <img className='h-[35px]' src={logo_image} alt="" />
-                   <p className='btn btn-ghost text-xl'>Phudu</p>
+                   <p className=' text-xl'>Phudu</p>
             </div>
      
             <nav className="grid grid-flow-col gap-4">
