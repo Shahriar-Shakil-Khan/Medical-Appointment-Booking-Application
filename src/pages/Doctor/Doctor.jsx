@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const Doctor = ({singleDoctor}) => {
-    const {image,name,education,speciality,experience,registration_number}=singleDoctor
+    const {image,name,education,speciality,experience,registration_number,id}=singleDoctor
     return (
-        <div className="card bg-base-100 w-96 shadow-sm">
+        <div className="card bg-base-100 w-96 shadow-sm border m-4 mx-auto">
   <figure>
     <img className='w-full h-[300px]'
       src={image}
@@ -24,7 +25,7 @@ const Doctor = ({singleDoctor}) => {
      <div className='border-t-1 border-dashed'></div>
      <h2>Registration Number : {registration_number}</h2>
 
-    <button className='btn bg-sky-500/50'>View Details</button>
+    <Link to={`/doctorDetails/${id}`} ><button className='btn bg-sky-500/50'>Details</button></Link>
   </div>
 </div>
     );
