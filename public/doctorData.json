@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "image": "https://randomuser.me/api/portraits/men/1.jpg",
+      "name": "Dr. John Doe",
+      "education": "MBBS, MD",
+      "speciality": "Cardiology",
+      "experience": "10 years",
+      "registration_number": "ABC12345",
+      "details_url": "/doctor-details/1"
+    },
+    {
+      "id": 2,
+      "image": "https://randomuser.me/api/portraits/women/2.jpg",
+      "name": "Dr. Jane Smith",
+      "education": "MBBS, MS",
+      "speciality": "Orthopedics",
+      "experience": "8 years",
+      "registration_number": "XYZ67890",
+      "details_url": "/doctor-details/2"
+    },
+    {
+      "id": 3,
+      "image": "https://randomuser.me/api/portraits/men/3.jpg",
+      "name": "Dr. Robert Brown",
+      "education": "MBBS, MCh",
+      "speciality": "Neurology",
+      "experience": "12 years",
+      "registration_number": "DEF98765",
+      "details_url": "/doctor-details/3"
+    },
+    {
+      "id": 4,
+      "image": "https://randomuser.me/api/portraits/women/4.jpg",
+      "name": "Dr. Sarah Lee",
+      "education": "MBBS, PhD",
+      "speciality": "Dermatology",
+      "experience": "7 years",
+      "registration_number": "GHI12367",
+      "details_url": "/doctor-details/4"
+    },
+    {
+      "id": 5,
+      "image": "https://randomuser.me/api/portraits/men/5.jpg",
+      "name": "Dr. Michael White",
+      "education": "MBBS, DNB",
+      "speciality": "Pediatrics",
+      "experience": "15 years",
+      "registration_number": "JKL56789",
+      "details_url": "/doctor-details/5"
+    },
+    {
+      "id": 6,
+      "image": "https://randomuser.me/api/portraits/women/6.jpg",
+      "name": "Dr. Emily Harris",
+      "education": "MBBS, MS",
+      "speciality": "Gynecology",
+      "experience": "9 years",
+      "registration_number": "MNO45623",
+      "details_url": "/doctor-details/6"
+    },
+    {
+      "id": 7,
+      "image": "https://randomuser.me/api/portraits/men/7.jpg",
+      "name": "Dr. David Clark",
+      "education": "MBBS, MD",
+      "speciality": "Gastroenterology",
+      "experience": "10 years",
+      "registration_number": "PQR23456",
+      "details_url": "/doctor-details/7"
+    },
+    {
+      "id": 8,
+      "image": "https://randomuser.me/api/portraits/women/8.jpg",
+      "name": "Dr. Linda King",
+      "education": "MBBS, MS",
+      "speciality": "ENT",
+      "experience": "5 years",
+      "registration_number": "STU78901",
+      "details_url": "/doctor-details/8"
+    },
+    {
+      "id": 9,
+      "image": "https://randomuser.me/api/portraits/men/9.jpg",
+      "name": "Dr. Brian Scott",
+      "education": "MBBS, MCh",
+      "speciality": "Urology",
+      "experience": "14 years",
+      "registration_number": "VWX23456",
+      "details_url": "/doctor-details/9"
+    },
+    {
+      "id": 10,
+      "image": "https://randomuser.me/api/portraits/women/10.jpg",
+      "name": "Dr. Olivia Young",
+      "education": "MBBS, MD",
+      "speciality": "Radiology",
+      "experience": "6 years",
+      "registration_number": "YZA34567",
+      "details_url": "/doctor-details/10"
+    },
+    {
+      "id": 11,
+      "image": "https://randomuser.me/api/portraits/men/11.jpg",
+      "name": "Dr. Charles Wright",
+      "education": "MBBS, PhD",
+      "speciality": "Oncology",
+      "experience": "20 years",
+      "registration_number": "BCD12345",
+      "details_url": "/doctor-details/11"
+    },
+    {
+      "id": 12,
+      "image": "https://randomuser.me/api/portraits/women/12.jpg",
+      "name": "Dr. Sophia Taylor",
+      "education": "MBBS, DNB",
+      "speciality": "Psychiatry",
+      "experience": "11 years",
+      "registration_number": "EFG67890",
+      "details_url": "/doctor-details/12"
+    }
+  
+]
