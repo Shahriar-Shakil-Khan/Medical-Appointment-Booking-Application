@@ -1,12 +1,14 @@
 import React from 'react';
 import logo_image from '../../assets/logo.png'
+import { Link } from 'react-router';
 
 const Navbar = () => {
     const links = <>
-      <li className='m-2'>Home</li>
-      <li className='m-2'>My-Bookings</li>
-      <li className='m-2'>Blogs</li>
-      <li className='m-2'>Contact Us</li>
+    <Link to='/'> <li className='m-2'>Home</li></Link>
+     
+    <Link to='/booking'><li className='m-2'>My-Bookings</li></Link>
+     <Link to='/blog'> <li className='m-2'>Blogs</li></Link>
+     <Link to='/contact'><li className='m-2'>Contact Us</li></Link> 
     </>
     return (
        <div className="navbar bg-base-100 shadow-sm">

@@ -52,6 +52,61 @@ const doctorDetails = () => {
                 </div>
             </div>
 
+
+
+
+<div className="card w-full bg-base-100 shadow-sm border mb-6">
+     <span className=" text-center text-2xl font-semibold mt-6">Book an Appointment</span>
+      <div className='border-t-1 border-dashed mt-6'></div>
+  <div className="card-body">
+   
+    <div className="flex justify-between">
+      <h2 className="text-3xl font-bold">Availability</h2>
+      <div className="badge badge-soft badge-success text-xl">Doctor Available Today</div>
+    </div>
+    <div className='border-t-1 border-dashed mt-6 mb-6'></div>
+    <h6 className='badge badge-outline badge-warning'>Due to high patient volume, we are currently accepting appointments for today only. We appreciate your understanding and cooperation.</h6>
+    
+    <div className="mt-6">
+      <button className="btn btn-primary btn-block">Book Appointment Now</button>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
     );
 };

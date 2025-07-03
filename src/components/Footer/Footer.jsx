@@ -1,6 +1,7 @@
 import React from 'react';
 
 import logo_image from '../../assets/logo.png';
+import { Link } from 'react-router';
 
 const Footer = () => {
     return (
@@ -13,11 +14,12 @@ const Footer = () => {
                    <p className=' text-xl'>Phudu</p>
             </div>
      
-            <nav className="grid grid-flow-col gap-4">
-                <a className="link link-hover">Home</a>
-                <a className="link link-hover">My-Bookings</a>
-                <a className="link link-hover">Blogs</a>
-                <a className="link link-hover">Contact Us</a>
+             <nav className="grid grid-flow-col gap-4">
+                
+                     <Link to='/'> <li className='m-2'>Home</li></Link>
+                     <Link to='/booking'><li className='m-2'>My-Bookings</li></Link>
+                     <Link to='/blog'> <li className='m-2'>Blogs</li></Link>
+                     <Link to='/contact'><li className='m-2'>Contact Us</li></Link> 
                 
             </nav>
             <nav>
