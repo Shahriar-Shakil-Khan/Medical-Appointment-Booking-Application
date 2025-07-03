@@ -9,6 +9,7 @@
     "registration_number": "ABC12345",
     "working_hospital": "City Heart Hospital",
     "availability": ["Sunday", "Monday", "Thursday"],
+    "fees": "$150",
     "details_url": "/doctor-details/1"
   },
   {
@@ -21,6 +22,7 @@
     "registration_number": "XYZ67890",
     "working_hospital": "Orthopedic Care Center",
     "availability": ["Monday", "Wednesday", "Friday"],
+    "fees": "$130",
     "details_url": "/doctor-details/2"
   },
   {
@@ -33,6 +35,7 @@
     "registration_number": "DEF98765",
     "working_hospital": "Neurology Specialist Clinic",
     "availability": ["Tuesday", "Thursday", "Saturday"],
+    "fees": "$180",
     "details_url": "/doctor-details/3"
   },
   {
@@ -45,6 +48,7 @@
     "registration_number": "GHI12367",
     "working_hospital": "Skin Care Institute",
     "availability": ["Sunday", "Wednesday", "Friday"],
+    "fees": "$120",
     "details_url": "/doctor-details/4"
   },
   {
@@ -57,6 +61,7 @@
     "registration_number": "JKL56789",
     "working_hospital": "Children's Health Center",
     "availability": ["Monday", "Thursday", "Saturday"],
+    "fees": "$100",
     "details_url": "/doctor-details/5"
   },
   {
@@ -69,6 +74,7 @@
     "registration_number": "MNO45623",
     "working_hospital": "Women's Health Clinic",
     "availability": ["Tuesday", "Thursday", "Sunday"],
+    "fees": "$140",
     "details_url": "/doctor-details/6"
   },
   {
@@ -81,6 +87,7 @@
     "registration_number": "PQR23456",
     "working_hospital": "GastroCare Hospital",
     "availability": ["Monday", "Wednesday", "Friday"],
+    "fees": "$160",
     "details_url": "/doctor-details/7"
   },
   {
@@ -93,6 +100,7 @@
     "registration_number": "STU78901",
     "working_hospital": "Ear, Nose, and Throat Institute",
     "availability": ["Tuesday", "Thursday", "Saturday"],
+    "fees": "$110",
     "details_url": "/doctor-details/8"
   },
   {
@@ -105,6 +113,7 @@
     "registration_number": "VWX23456",
     "working_hospital": "Urology Medical Center",
     "availability": ["Monday", "Wednesday", "Friday"],
+    "fees": "$200",
     "details_url": "/doctor-details/9"
   },
   {
@@ -117,6 +126,7 @@
     "registration_number": "YZA34567",
     "working_hospital": "Radiology Diagnostic Center",
     "availability": ["Tuesday", "Thursday", "Saturday"],
+    "fees": "$150",
     "details_url": "/doctor-details/10"
   },
   {
@@ -129,6 +139,7 @@
     "registration_number": "BCD12345",
     "working_hospital": "Cancer Treatment Center",
     "availability": ["Monday", "Wednesday", "Friday"],
+    "fees": "$220",
     "details_url": "/doctor-details/11"
   },
   {
@@ -141,6 +152,7 @@
     "registration_number": "EFG67890",
     "working_hospital": "Mental Health Clinic",
     "availability": ["Sunday", "Thursday", "Saturday"],
+    "fees": "$130",
     "details_url": "/doctor-details/12"
   }
 ]
