@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLoaderData, useParams } from 'react-router';
+import { Link, useLoaderData, useParams } from 'react-router';
 
 const doctorDetails = () => {
 
@@ -68,7 +68,7 @@ const doctorDetails = () => {
     <h6 className='badge badge-outline badge-warning'>Due to high patient volume, we are currently accepting appointments for today only. We appreciate your understanding and cooperation.</h6>
     
     <div className="mt-6">
-      <button className="btn btn-primary btn-block">Book Appointment Now</button>
+      <Link to='/booking'><button className="btn btn-primary btn-block">Book Appointment Now</button></Link>
     </div>
   </div>
 </div>

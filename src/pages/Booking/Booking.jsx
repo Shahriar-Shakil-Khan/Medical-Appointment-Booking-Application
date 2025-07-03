@@ -2,9 +2,7 @@ import React from 'react';
 
 const Booking = () => {
     return (
-        <div>
-            <h1>Hello Bookings</h1>
-        </div>
+   <div>Hello i am booking</div>
     );
 };
 
