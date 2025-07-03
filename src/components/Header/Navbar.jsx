@@ -35,7 +35,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn bg-sky-500/50 text-white">Emergency</a>
+    <a href="https://www.mmc.gov.bd/" className="btn bg-sky-500/50 text-white">Emergency</a>
   </div>
         </div>
     );

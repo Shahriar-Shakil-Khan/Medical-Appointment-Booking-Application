@@ -1,5 +1,8 @@
-
 import CountUp from 'react-countup';
+ import x from '../../assets/success-doctor.png'
+ import y from '../../assets/success-review.png'
+ import z from '../../assets/success-patients.png'
+ import m from '../../assets/success-staffs.png'
 
 const CounterPage = () => {
   
@@ -16,6 +19,9 @@ const CounterPage = () => {
                 <div class="text-4xl mb-4">
                     <i class="fas fa-user-md"></i>
                 </div>
+                <div className='flex justify-center mb-4'>
+                    <img className='w-20 h-[50px] ' src={x} alt="" />
+                </div>
                 <h2 class="text-xl font-semibold text-gray-800"> <CountUp start={10} end={199} duration={10} delay={0}/>+</h2>
                 <p class="text-gray-600">Total Doctors</p>
             </div>
@@ -23,6 +29,9 @@ const CounterPage = () => {
             <div class="card bg-white shadow-lg rounded-lg p-6 text-center">
                 <div class="text-4xl mb-4">
                     <i class="fas fa-star"></i>
+                </div>
+                 <div className='flex justify-center mb-4'>
+                    <img className='w-20 h-[50px] ' src={y} alt="" />
                 </div>
                 <h2 class="text-xl font-semibold text-gray-800"><CountUp start={70} end={467} duration={10} delay={0}/>+</h2>
                 <p class="text-gray-600">Total Reviews</p>
@@ -32,6 +41,9 @@ const CounterPage = () => {
                 <div class="text-4xl mb-4">
                     <i class="fas fa-procedures"></i>
                 </div>
+                 <div className='flex justify-center mb-4'>
+                    <img className='w-20 h-[50px] ' src={z} alt="" />
+                </div>
                 <h2 class="text-xl font-semibold text-gray-800"><CountUp start={100} end={1900} duration={10} delay={0}/>+</h2>
                 <p class="text-gray-600">Patients</p>
             </div>
@@ -39,6 +51,9 @@ const CounterPage = () => {
             <div class="card bg-white shadow-lg rounded-lg p-6 text-center">
                 <div class="text-4xl mb-4">
                     <i class="fas fa-users"></i>
+                </div>
+                 <div className='flex justify-center mb-4'>
+                    <img className='w-20 h-[50px] ' src={m} alt="" />
                 </div>
                 <h2 class="text-xl font-semibold text-gray-800"><CountUp start={1} end={300} duration={10} delay={0}/>+</h2>
                 <p class="text-gray-600">Total Staffs</p>
